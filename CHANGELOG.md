@@ -28,7 +28,7 @@ All notable changes to the Attntiv app will be documented in this file.
 - Reusable UI components
 - Responsive layouts for all iOS devices
 
-### Next Steps
+### Addeed
 - Implement Core ML integration for AI content generation
 - Add backend integration for user data persistence
 - Implement social features and sharing
