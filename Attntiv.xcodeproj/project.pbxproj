@@ -1,0 +1,131 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+        /* Begin PBXBuildFile section */
+        /* App */
+        1A1A1A1A1A1A1A1A1A1A1A1A /* AttntivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1B /* AttntivApp.swift */; };
+        1A1A1A1A1A1A1A1A1A1A1A1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1D /* ContentView.swift */; };
+        
+        /* Core Services */
+        1A1A1A1A1A1A1A1A1A1A1A2A /* CognitiveExerciseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A2B /* CognitiveExerciseService.swift */; };
+        1A1A1A1A1A1A1A1A1A1A2A2C /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A2A2D /* FirebaseService.swift */; };
+        1A1A1A1A1A1A1A1A1A2A2A2E /* MLContentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A2A2A2F /* MLContentGenerator.swift */; };
+        1A1A1A1A1A1A1A1A2A2A2A30 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A2A2A2A31 /* NotificationService.swift */; };
+        1A1A1A1A1A1A1A2A2A2A2A32 /* OfflineStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A2A2A2A2A33 /* OfflineStorage.swift */; };
+        
+        /* Features */
+        1A1A1A1A1A1A2A2A2A2A2A34 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A2A2A2A2A2A35 /* AuthenticationView.swift */; };
+        1A1A1A1A1A2A2A2A2A2A2A36 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A2A2A2A2A2A2A37 /* ExercisesView.swift */; };
+        1A1A1A1A2A2A2A2A2A2A2A38 /* FocusExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A2A2A2A2A2A2A2A39 /* FocusExerciseView.swift */; };
+        1A1A1A2A2A2A2A2A2A2A2A3A /* MemoryExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A2A2A2A2A2A2A2A2A3B /* MemoryExerciseView.swift */; };
+        1A1A2A2A2A2A2A2A2A2A2A3C /* PatternRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A2A2A2A2A2A2A2A2A2A3D /* PatternRecognitionView.swift */; };
+        1A2A2A2A2A2A2A2A2A2A2A3E /* ProblemSolvingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A2A2A2A2A2A2A2A2A2A3F /* ProblemSolvingView.swift */; };
+        2A2A2A2A2A2A2A2A2A2A2A40 /* SpeedProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A41 /* SpeedProcessingView.swift */; };
+        2A2A2A2A2A2A2A2A2A2A2A42 /* CognitiveFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A43 /* CognitiveFeedView.swift */; };
+        2A2A2A2A2A2A2A2A2A2A2A44 /* CognitiveFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A45 /* CognitiveFeedViewModel.swift */; };
+        2A2A2A2A2A2A2A2A2A2A2A46 /* GamificationBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A47 /* GamificationBoardView.swift */; };
+        2A2A2A2A2A2A2A2A2A2A2A48 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A49 /* ProfileView.swift */; };
+        
+        /* Resources */
+        2A2A2A2A2A2A2A2A2A2A2A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A4B /* Assets.xcassets */; };
+        2A2A2A2A2A2A2A2A2A2A2A4C /* AttntivData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A4D /* AttntivData.xcdatamodeld */; };
+        /* End PBXBuildFile section */
+        
+        /* Begin PBXFileReference section */
+        1A1A1A1A1A1A1A1A1A1A1A1B /* AttntivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttntivApp.swift; sourceTree = "<group>"; };
+        /* Add all other file references here */
+        /* End PBXFileReference section */
+        
+        /* Begin PBXFrameworksBuildPhase section */
+        1A1A1A1A1A1A1A1A1A1A1A01 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        /* End PBXFrameworksBuildPhase section */
+        
+        /* Begin PBXGroup section */
+        1A1A1A1A1A1A1A1A1A1A1A02 = {
+            isa = PBXGroup;
+            children = (
+                1A1A1A1A1A1A1A1A1A1A1A03 /* Attntiv */,
+                1A1A1A1A1A1A1A1A1A1A1A04 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        
+        1A1A1A1A1A1A1A1A1A1A1A03 /* Attntiv */ = {
+            isa = PBXGroup;
+            children = (
+                1A1A1A1A1A1A1A1A1A1A1A05 /* App */,
+                1A1A1A1A1A1A1A1A1A1A1A06 /* Core */,
+                1A1A1A1A1A1A1A1A1A1A1A07 /* Features */,
+                1A1A1A1A1A1A1A1A1A1A1A08 /* Resources */,
+            );
+            path = Attntiv;
+            sourceTree = "<group>";
+        };
+        /* Add other groups here */
+        /* End PBXGroup section */
+        
+        /* Begin PBXNativeTarget section */
+        1A1A1A1A1A1A1A1A1A1A1A09 /* Attntiv */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A0A;
+            buildPhases = (
+                1A1A1A1A1A1A1A1A1A1A1A0B /* Sources */,
+                1A1A1A1A1A1A1A1A1A1A1A0C /* Frameworks */,
+                1A1A1A1A1A1A1A1A1A1A1A0D /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Attntiv;
+            productName = Attntiv;
+            productReference = 1A1A1A1A1A1A1A1A1A1A1A0E;
+            productType = "com.apple.product-type.application";
+        };
+        /* End PBXNativeTarget section */
+        
+        /* Begin XCBuildConfiguration section */
+        1A1A1A1A1A1A1A1A1A1A1A0F /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_ASSET_PATHS = "\"Attntiv/Resources\"";
+                DEVELOPMENT_TEAM = "";
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "app.attntiv";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        /* Add Release configuration */
+        /* End XCBuildConfiguration section */
+    };
+    rootObject = 1A1A1A1A1A1A1A1A1A1A1A00;
+} 
